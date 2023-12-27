@@ -33,3 +33,4 @@
 /Users/par/Code/mindex-dot-net/CodeChallenge/obj/Debug/net6.0/CodeChallenge.genruntimeconfig.cache
 /Users/par/Code/mindex-dot-net/CodeChallenge/obj/Debug/net6.0/ref/CodeChallenge.dll
 /Users/par/Code/mindex-dot-net/CodeChallenge/obj/Debug/net6.0/CodeChallenge.sourcelink.json
+/Users/par/Code/mindex-dot-net/CodeChallenge/bin/Debug/net6.0/resources/CompensationSeedData.json
