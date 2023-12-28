@@ -1,0 +1,42 @@
+[
+  {
+    "compensationId": "82fa4fd5-b6da-45c0-a0a5-4fbc67bf0dd6",
+    "employee": {
+      "employeeId": "16a596ae-edd3-4847-99fe-c4518e82c86f"
+    },
+    "salary":  150000.00,
+    "effectiveDate": "2024-01-15T05:00:00.000Z"
+  },
+  {
+    "compensationId": "502d597b-9c14-4afb-a06f-9a62458b7f06",
+    "employee": {
+      "employeeId": "b7839309-3348-463b-a7e3-5de1c168beb3"
+    },
+    "salary":  125000.00,
+    "effectiveDate": "2023-01-01T05:00:00.000Z"
+  },
+  {
+    "compensationId": "d2bc9217-f0d6-4c77-b630-5a1a8739484c",
+    "employee": {
+      "employeeId": "c0c2293d-16bd-4603-8e08-638a9d18b22c"
+    },
+    "salary":  95000.00,
+    "effectiveDate": "2023-06-12T04:00:00.000Z"
+  },
+  {
+    "compensationId": "6092151e-b5fa-4c0f-9ddf-32c04ae5601c",
+    "employee": {
+      "employeeId": "62c1084e-6e34-4630-93fd-9153afb65309"
+    },
+    "salary":  105.00,
+    "effectiveDate": "2021-10-16T04:00:00.000Z"
+  },
+  {
+    "compensationId": "8aa30318-b5ef-4f08-9b03-cc7649b95eda",
+    "employee": {
+      "employeeId": "03aa1462-ffa9-4978-901b-7c001562cf6f"
+    },
+    "salary":  120.00,
+    "effectiveDate": "2024-01-01T05:00:00.000Z"
+  }
+]

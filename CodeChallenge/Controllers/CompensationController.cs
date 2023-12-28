@@ -25,10 +25,18 @@ namespace CodeChallenge.Controllers
         }
 
         [HttpPost]
-        public IActionResult CreateCompensation([FromBody] Compensation compensation)
+        public IActionResult CreateCompensation([FromBody] CreateCompensationRequest request)
         {
-            _logger.LogDebug($"Received compensation create request for '{compensation.Employee}' at {compensation.Salary} effective {compensation.EffectiveDate}");
-            
+
+            var employee = _employeeService.GetById(request.EmployeeId);
+            _logger.LogDebug($"Received compensation create request for '{request.EmployeeId}' at {request.Salary} effective {request.EffectiveDate}");
+
+            var compensation = new Compensation
+            {
+                Employee = employee,
+                Salary = request.Salary,
+                EffectiveDate = request.EffectiveDate
+            };
             _compensationService.Create(compensation);
 
             return CreatedAtRoute("getCompensationByEmployeeId", new { id = compensation.Employee.EmployeeId }, compensation);
