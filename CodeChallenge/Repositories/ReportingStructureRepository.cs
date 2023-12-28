@@ -28,6 +28,8 @@ namespace CodeChallenge.Repositories
             if (employee == null)
                 return null;
             
+            /* Depth first search: utilize recursive function GatherReports to accumulate count of reports for a given employee*/
+            /* use ref for reportsCount since reportsCount (short) is a value type */
             GatherReports(id, ref reportsCount);
             return new ReportingStructure
             {

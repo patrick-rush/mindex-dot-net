@@ -1,4 +1,28 @@
 # Mindex Coding Challenge
+
+## Patrick's Notes:
+New endpoints:
+```
+* READ
+    * HTTP Method: GET 
+    * URL: localhost:8080/api/reporting-structure/{employeeId}
+    * RESPONSE: ReportingStructure
+* CREATE
+    * HTTP Method: POST 
+    * URL: localhost:8080/api/compensation
+    * PAYLOAD: Compensation
+    * RESPONSE: Compensation
+* READ
+    * HTTP Method: GET 
+    * URL: localhost:8080/api/compensation/{employeeId}
+    * RESPONSE: Compensation
+```
+
+New Tests:
+* New Unit Tests with coverage for CompensationController create and ReportingStructure read
+
+---
+
 ## What's Provided
 A simple [.Net 6](https://dotnet.microsoft.com/en-us/download/dotnet/6.0) web application has been created and bootstrapped 
 with data. The application contains information about all employees at a company. On application start-up, an in-memory 

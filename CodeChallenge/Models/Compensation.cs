@@ -11,6 +11,7 @@ namespace CodeChallenge.Models
         public DateTime EffectiveDate { get; set; }
     }
 
+    /* CompensationDto permits creation of compensation solely with EmployeeId via EmployeeDto */
     public class CompensationDto
     {
         public String CompensationId { get; set; }
